@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{14C7EE5C-4E75-4471-B9E8-EA2CD9B1A312}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{B7C9C5AE-89D2-4F95-98C5-4692CB2874D8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CongestionTaxCalculator", "src\CongestionTaxCalculator\CongestionTaxCalculator.csproj", "{51DB11A6-1AD2-4A2F-ADF4-A2885B90D90A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CongestionTaxCalculator.UnitTests", "tests\CongestionTaxCalculator.UnitTests\CongestionTaxCalculator.UnitTests.csproj", "{0A515896-42F6-45AD-84A1-C66B8C6AD60C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51DB11A6-1AD2-4A2F-ADF4-A2885B90D90A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51DB11A6-1AD2-4A2F-ADF4-A2885B90D90A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51DB11A6-1AD2-4A2F-ADF4-A2885B90D90A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51DB11A6-1AD2-4A2F-ADF4-A2885B90D90A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A515896-42F6-45AD-84A1-C66B8C6AD60C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A515896-42F6-45AD-84A1-C66B8C6AD60C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A515896-42F6-45AD-84A1-C66B8C6AD60C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A515896-42F6-45AD-84A1-C66B8C6AD60C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{51DB11A6-1AD2-4A2F-ADF4-A2885B90D90A} = {14C7EE5C-4E75-4471-B9E8-EA2CD9B1A312}
+		{0A515896-42F6-45AD-84A1-C66B8C6AD60C} = {B7C9C5AE-89D2-4F95-98C5-4692CB2874D8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93A463DF-3CEF-4222-957E-DEA93D13BC09}
+	EndGlobalSection
+EndGlobal
